@@ -6,16 +6,16 @@ source "http://rubygems.org"
 gemspec
 
 # used by the dummy application
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.1.1'
 gem 'cloudinary'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 
 group :assets do
-  gem 'coffee-rails'
+  gem 'coffee-rails', '>= 4.2.2'
 end
 
 group :mongoid do
-  gem 'mongoid'
+  gem 'mongoid', '>= 6.0.0'
 end
 
 
